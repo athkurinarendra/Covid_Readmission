@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Covid</title>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  color: Tomato;
+}
+
+.one {
+  background-image: url("https://bhmpc.com/wp-content/uploads/2014/12/HRA-thumb7.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  
+}
+#mydiv {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    border-style: solid;
+    opacity: 1;
+}
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home"><i class="icon-camera-retro"></i>Home</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<div class="one">
+<div id= "mydiv">
+<center>
+<form action = ""  method = "POST">
+Age_Group:<input type = "number" name = "age_group"><br/><br/><br/>
+Total_Deaths:<input type = "number" name = "total_deaths"><br/><br/><br/>
+<input type = "submit" value = "submit"> <br/>
+</form>
+</center>
+</div>
+</div>
+
+</body>
+</html>
