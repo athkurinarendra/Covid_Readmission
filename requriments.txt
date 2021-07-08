@@ -1,0 +1,14 @@
+Required libraries in our project
+---------------------------------
+
+Pandas = 1.1.5
+
+Matplotlib  > 3
+
+Sklearn = 0.11.1 
+
+Pickle = 0.7.5
+
+Flask = 1.1.2
+
+numpy = 1.20.2
