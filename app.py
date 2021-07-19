@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 from flask import Flask, render_template, request
 app = Flask(__name__)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model/model.pkl', 'rb'))
 
 @app.route("/")
 def hello():
