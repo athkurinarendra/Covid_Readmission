@@ -9,7 +9,7 @@ model = pickle.load(open('./model/model.pkl', 'rb'))
 def hello():
     return render_template('index.html')
 
-@app.route("/", methods = ['POST'])
+@app.route("/predict", methods = ['POST'])
 def predict():
 
     age_group = request.form['age_group']
