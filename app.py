@@ -17,7 +17,7 @@ def predict():
     data = [[age_group,total_deaths]]
     out = model.predict(data)
 
-    return "Covid-19 deaths:"+str(np.round((out[0])))
+    return render_template('index.html', prediction_text="Covid-19 deaths:"+str(np.round((out[0]))))
 
 if __name__ == "__main__":
 
